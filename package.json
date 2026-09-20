@@ -1,0 +1,16 @@
+{
+  "name": "udar-mafia",
+  "version": "1.0.0",
+  "description": "UDAR MAFIA Telegram Mini App",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "ws": "^8.18.0"
+  }
+}
