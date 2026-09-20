@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="uz">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="
+            width=device-width,
+            initial-scale=1,
+            maximum-scale=1,
+            user-scalable=no
+        "
+    >
+
+    <title>UDAR MAFIA</title>
+
+    <script src="
+        https://telegram.org/js/
+        telegram-web-app.js
+    "></script>
+
+    <link
+        rel="stylesheet"
+        href="/style.css"
+    >
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="topbar">
+
+            <div class="brand">
+
+                <div class="brand-icon">
+                    ☠️
+                </div>
+
+                <div>
+
+                    <div class="brand-name">
+                        UDAR MAFIA
+                    </div>
+
+                    <div class="brand-subtitle">
+                        SHADOW ARENA
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="status">
+                ONLINE
+            </div>
+
+        </header>
+
+
+        <main>
+
+            <section
+                id="home"
+                class="screen active"
+            >
+
+                <div class="hero">
+
+                    <div class="skull">
+                        ☠️
+                    </div>
+
+                    <h1>
+                        UDAR MAFIA
+                    </h1>
+
+                    <p>
+                        Ishonch tugagan joyda
+                        Mafia boshlanadi.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-title">
+                        🎭 Yangi arena
+                    </div>
+
+                    <div class="card-text">
+                        Guruhingiz bilan
+                        yashirin rollarda
+                        o'ynang.
+                    </div>
+
+                </div>
+
+
+                <button
+                    id="joinButton"
+                    class="primary-button"
+                >
+                    ⚡ ARENAGA KIRISH
+                </button>
+
+
+                <div class="features">
+
+                    <div class="feature">
+                        🔪
+                        <span>Mafia</span>
+                    </div>
+
+                    <div class="feature">
+                        🩺
+                        <span>Doktor</span>
+                    </div>
+
+                    <div class="feature">
+                        🔎
+                        <span>Sherif</span>
+                    </div>
+
+                    <div class="feature">
+                        🩸
+                        <span>Maniak</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section
+                id="lobby"
+                class="screen"
+            >
+
+                <div class="screen-title">
+
+                    <span>🎭</span>
+
+                    <div>
+                        <h2>Lobby</h2>
+                        <p>
+                            O'yinchilarni kuting
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="player-count">
+
+                    <span>
+                        O'yinchilar
+                    </span>
+
+                    <strong id="playerCount">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div id="players">
+                </div>
+
+
+                <button
+                    id="startButton"
+                    class="primary-button"
+                >
+                    ☠️ O'YINNI BOSHLASH
+                </button>
+
+            </section>
+
+
+            <section
+                id="game"
+                class="screen"
+            >
+
+                <div class="phase">
+
+                    <span id="phaseIcon">
+                        🌑
+                    </span>
+
+                    <div>
+
+                        <small>
+                            HOZIR
+                        </small>
+
+                        <strong id="phaseName">
+                            TUN
+                        </strong>
+
+                    </div>
+
+                    <div
+                        id="timer"
+                        class="timer"
+                    >
+                        60
+                    </div>
+
+                </div>
+
+
+                <div class="role-card">
+
+                    <div
+                        id="roleIcon"
+                        class="role-icon"
+                    >
+                        ❔
+                    </div>
+
+                    <div>
+
+                        <small>
+                            SIZNING ROLINGIZ
+                        </small>
+
+                        <h2 id="roleName">
+                            Aniqlanmoqda...
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <h3>
+                    O'YINCHILAR
+                </h3>
+
+                <div id="gamePlayers">
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <script src="/app.js"></script>
+
+</body>
+
+</html>
